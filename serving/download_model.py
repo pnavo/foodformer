@@ -17,5 +17,5 @@ wandb.init()
 
 current_folder = Path(__file__).parent
 print(f"Folder: {current_folder}")
-path = ### EXERCISE: download model from Weights and Biasesto local path ###
+path = current_folder
 print(f"Model downloaded to: {path}")
